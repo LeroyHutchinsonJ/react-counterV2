@@ -1,9 +1,14 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  color: #fffdfd;
 }
 button {
   border: none;
   padding: 10px 20px;
   background-color: lightblue;
+  width: 100%;
+}
+html {
+  background-color: #141111;
 }
