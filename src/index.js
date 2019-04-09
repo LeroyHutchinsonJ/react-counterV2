@@ -8,9 +8,7 @@ class CountingParent extends React.Component {
     actionCount: 0
   };
 
-  handleAction = action => {
-    console.log("child says", action.type);
-
+  handleAction = () => {
     this.setState({
       actionCount: this.state.actionCount + 1
     });
@@ -44,5 +42,6 @@ var App = () => {
     </div>
   );
 };
+
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
