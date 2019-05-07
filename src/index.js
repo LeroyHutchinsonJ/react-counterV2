@@ -3,7 +3,9 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
+//Creating a class
 class CountingParent extends React.Component {
+  //Giving the class some states
   state = {
     actionCount: 0
   };
