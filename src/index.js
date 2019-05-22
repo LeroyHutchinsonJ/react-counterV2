@@ -7,7 +7,7 @@ import "./styles.css";
 class CountingParent extends React.Component {
   //Giving the class some states
   state = {
-    actionCount: 0
+    actionCount: 1
   };
 
   handleAction = () => {
